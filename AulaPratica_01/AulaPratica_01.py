@@ -37,14 +37,7 @@ def bfs(graph, start):
                 print(f'Adicionando {neighbor} em visited: {visited}')
                 queue.append(neighbor)
                 print(f'Adicionando {neighbor} em queue: {queue}')
-
-# tentativa breadth-first search
-def bfs(graph, start, visitados=None):
-    if visitados is None:
-        visitados = set()
-    visitados.add(start)
-
-
+                
 print('Busca em Largura:')
 bfs(graph, '6')
 
